@@ -34,7 +34,7 @@
 		03473C4020790EE700DD5353 /* VirtualObjectSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectSelection.swift; sourceTree = "<group>"; };
 		03473C422079102500DD5353 /* ViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Actions.swift"; sourceTree = "<group>"; };
 		03473C442079105100DD5353 /* ViewController+ObjectSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ObjectSelection.swift"; sourceTree = "<group>"; };
-		03B809A1207559CE00A8C2D3 /* ARKitPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B809A1207559CE00A8C2D3 /* ARKitPoc2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitPoc2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B809A4207559CE00A8C2D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03B809A6207559CE00A8C2D3 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		03B809A8207559CE00A8C2D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		03B809A2207559CE00A8C2D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03B809A1207559CE00A8C2D3 /* ARKitPoc.app */,
+				03B809A1207559CE00A8C2D3 /* ARKitPoc2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03B809A0207559CE00A8C2D3 /* ARKitPoc */ = {
+		03B809A0207559CE00A8C2D3 /* ARKitPoc2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03B809B5207559CE00A8C2D3 /* Build configuration list for PBXNativeTarget "ARKitPoc" */;
+			buildConfigurationList = 03B809B5207559CE00A8C2D3 /* Build configuration list for PBXNativeTarget "ARKitPoc2" */;
 			buildPhases = (
 				03B8099D207559CE00A8C2D3 /* Sources */,
 				03B8099E207559CE00A8C2D3 /* Frameworks */,
@@ -145,9 +145,9 @@
 			);
 			dependencies = (
 			);
-			name = ARKitPoc;
+			name = ARKitPoc2;
 			productName = ARKitPoc;
-			productReference = 03B809A1207559CE00A8C2D3 /* ARKitPoc.app */;
+			productReference = 03B809A1207559CE00A8C2D3 /* ARKitPoc2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -166,7 +166,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03B8099C207559CE00A8C2D3 /* Build configuration list for PBXProject "ARKitPoc" */;
+			buildConfigurationList = 03B8099C207559CE00A8C2D3 /* Build configuration list for PBXProject "ARKitPoc2" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -179,7 +179,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03B809A0207559CE00A8C2D3 /* ARKitPoc */,
+				03B809A0207559CE00A8C2D3 /* ARKitPoc2 */,
 			);
 		};
 /* End PBXProject section */
@@ -355,7 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7BW8EE9F8A;
+				DEVELOPMENT_TEAM = L8SZ327T74;
 				INFOPLIST_FILE = ARKitPoc/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -371,7 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7BW8EE9F8A;
+				DEVELOPMENT_TEAM = L8SZ327T74;
 				INFOPLIST_FILE = ARKitPoc/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -385,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03B8099C207559CE00A8C2D3 /* Build configuration list for PBXProject "ARKitPoc" */ = {
+		03B8099C207559CE00A8C2D3 /* Build configuration list for PBXProject "ARKitPoc2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03B809B3207559CE00A8C2D3 /* Debug */,
@@ -394,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03B809B5207559CE00A8C2D3 /* Build configuration list for PBXNativeTarget "ARKitPoc" */ = {
+		03B809B5207559CE00A8C2D3 /* Build configuration list for PBXNativeTarget "ARKitPoc2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03B809B6207559CE00A8C2D3 /* Debug */,
