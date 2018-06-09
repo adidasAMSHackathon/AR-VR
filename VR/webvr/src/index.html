@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>adidas - a-frame boilerplate</title>
+</head>
+
+<body>
+  <a-scene light="defaultLightsEnabled: false">
+      <a-assets>
+        <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg" crossorigin="anonymous">
+        <img id="skyTexture" src="https://cdn.aframe.io/a-painter/images/sky.jpg" crossorigin="anonymous">
+
+        <img src="/assets/floor.png" id="floorTexture">
+
+        <a-mixin id="wallMat" material="color:#FFF"></a-mixin>
+
+        <img src="/assets/adidas_logo.png" id="adidas-logo">
+        <img src="/assets/originals_logo.png" id="originals-logo">
+      </a-assets>
+
+      <a-entity wasd-controls camera look-controls position="0 1.6 2"></a-entity>
+
+      <a-sky height="2048" radius="30" src="#skyTexture" theta-length="90" width="2048" segments-height="5" segments-width="8"></a-sky>
+      <a-plane src="#groundTexture" rotation="-90 0 0" position="0 -0.01 0" height="100" width="100"></a-plane>
+
+      <a-entity light="type:point; intensity:0.7" id="light" position="-1.5 1.7 1.55"></a-entity>
+      <a-entity light="type:point; intensity:0.5; color:#ffe" id="light-2" position="1.2 1.7 -1.3"></a-entity>
+      <rw-room position="-2.5 0 -2.5" width="5" length="5" height="3">
+
+        <rw-wall mixin="wallMat"></rw-wall>
+        <rw-wall mixin="wallMat"></rw-wall>
+        <rw-wall mixin="wallMat"></rw-wall>
+        <rw-wall mixin="wallMat"></rw-wall>
+        <rw-floor material="src:#floorTexture; repeat:0.5 0.5;"></rw-floor>
+        <rw-ceiling material="color:#6F757D"></rw-ceiling>
+
+        <a-plane src="#adidas-logo" position="2.5 1.5 0.01" rotation="0 0 0" material="transparent: true;" geometry="height:1.5; width:1.5"></a-plane>
+        <a-box static-body position="2.5 0.5 1.5" material="emissive:#7f807f" geometry="depth:0.5; width:0.5"></a-box>
+
+        <a-entity dynamic-body id="stan" gltf-model="url(/assets/stan-smith/scene.gltf)" position="2.46 3 1.44" rotation="0 30 0" scale="0.02 0.02 0.02"></a-entity>
+      </rw-room>
+  </a-scene>
+</body>
+
+</html>
